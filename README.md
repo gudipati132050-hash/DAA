@@ -1,2 +1,0 @@
-# DAA
-pratical 2
