@@ -35,6 +35,13 @@ The factorial of a number was implemented using both iterative and recursive met
 Conclusion
 Thus, the factorial of a given number was successfully calculated using both iterative and recursive methods. Both methods produce the same result, but the iterative method is more space-efficient, while the recursive method is simpler and demonstrates the concept of recursion. Therefore, the iterative approach is generally preferable when memory efficiency is important.
 
+     PRACTICAL-5
+Summary
+The Knapsack Problem was implemented using Dynamic Programming to find the maximum value within a given weight capacity. DP stores solutions to smaller subproblems and uses them to build the final optimal solution.
+
+Conclusion
+Dynamic Programming provides an efficient and optimal solution to the Knapsack Problem, reducing repeated calculations and improving performance compared with the recursive approach.
+
 
                               practical-7
 summary Greedy Approach: Fails when larger coin choices bypass optimal smaller combinations (e.g., target 6 with coins [1, 3, 4]).Recursion & Memoization: Top-down technique that caches repeated subproblem values to avoid redundant tree branches.Tabulation (Bottom-Up DP): Iteratively builds a 1D array where each index tracks the optimal result for sub-amounts up to the target.Complexity: Achieves an efficient (O(N \times C)) time complexity and O(N) space complexity (where N is the target amount and C is coin types) conclusion Optimal Substructure: The optimal solution for a target amount directly relies on the optimal solutions of smaller remaining sub-amounts.Core Paradigm: It stands as a benchmark model for the unbounded knapsack problem where items (coins) are indefinitely reusable.Efficiency: Tabulation eliminates recursion stack overhead, providing optimal scalability for larger target inputs.
