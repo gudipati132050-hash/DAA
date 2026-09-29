@@ -45,3 +45,23 @@ Dynamic Programming provides an efficient and optimal solution to the Knapsack P
 
                               practical-7
 summary Greedy Approach: Fails when larger coin choices bypass optimal smaller combinations (e.g., target 6 with coins [1, 3, 4]).Recursion & Memoization: Top-down technique that caches repeated subproblem values to avoid redundant tree branches.Tabulation (Bottom-Up DP): Iteratively builds a 1D array where each index tracks the optimal result for sub-amounts up to the target.Complexity: Achieves an efficient (O(N \times C)) time complexity and O(N) space complexity (where N is the target amount and C is coin types) conclusion Optimal Substructure: The optimal solution for a target amount directly relies on the optimal solutions of smaller remaining sub-amounts.Core Paradigm: It stands as a benchmark model for the unbounded knapsack problem where items (coins) are indefinitely reusable.Efficiency: Tabulation eliminates recursion stack overhead, providing optimal scalability for larger target inputs.
+
+
+             practical_8
+
+Summary
+Breadth-First Search (BFS) and Depth-First Search (DFS) are fundamental graph traversal algorithms used to visit all the vertices of a graph.
+
+BFS explores the graph level by level. It uses a queue (FIFO) and is useful for finding the shortest path in an unweighted graph.
+
+DFS explores as deep as possible before backtracking. It uses a stack (LIFO) or recursion and is useful for tasks such as cycle detection, connected components, and topological sorting.
+
+For a graph with V vertices and E edges, both BFS and DFS generally have a time complexity of O(V + E).
+
+The choice between BFS and DFS depends on the problem requirements and the structure of the graph.
+
+Conclusion
+BFS and DFS are efficient and widely used techniques for traversing graphs. BFS is preferable when level-wise exploration or the shortest path in an unweighted graph is required, while DFS is suitable when deep exploration and backtracking are needed. Understanding both algorithms provides a strong foundation for solving graph-related problems in computer science.
+
+
+
