@@ -63,5 +63,11 @@ The choice between BFS and DFS depends on the problem requirements and the struc
 Conclusion
 BFS and DFS are efficient and widely used techniques for traversing graphs. BFS is preferable when level-wise exploration or the shortest path in an unweighted graph is required, while DFS is suitable when deep exploration and backtracking are needed. Understanding both algorithms provides a strong foundation for solving graph-related problems in computer science.
 
+PRACTICAL-9
+Implementation of Prim’s Algorithm for finding the Minimum Spanning Tree of a weighted graph. The program uses an adjacency matrix and a greedy approach to select the minimum-weight edge connecting a selected vertex to an unselected vertex. The MST contains `V-1` edges, with a total minimum cost of **16** for the given graph.
 
+ **Topics:** `DAA` `Prim's Algorithm` `MST` `Greedy Algorithm` `Python` `Graph Algorithms`
+conclusion 
+
+ Thus, **Prim’s Algorithm** was successfully implemented to find the **Minimum Spanning Tree (MST)** of the given weighted graph. The algorithm selects the minimum-cost edge at each step while avoiding cycles. For the given graph, the MST contains **4 edges** with a **total minimum cost of 16**. This practical demonstrates the application of the **greedy approach** in solving graph optimization problems.
 
